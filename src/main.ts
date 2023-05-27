@@ -5,7 +5,7 @@ const textarea = document.querySelector('textarea');
 
 export const llamarApi = async( msg:string ) => {
     const configuration = new Configuration({
-      apiKey: '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'
+      apiKey: ''
   });
 
     delete configuration.baseOptions.headers['User-Agent'];
