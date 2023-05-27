@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./public/icons8-chatgpt-30.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet">
+    <title>API-GPT</title>
+  </head>
+  <body class="bg-black box-border h-screen font-serif">
+    <header>
+      <img src="./public/logoGpt.png" alt="logo-chat-gpt" class="w-44 ml-2">
+    </header>
+
+    <main class="flex justify-center items-center flex-col h-3/4 mt-10">
+      <section class="w-80 md:w-11/12">
+        <img src="./public/Vector.png" alt="icon" class="w-3 inline mb-1">
+        <h2 class="h-2 text-green-500 inline">
+          Por favor, proporciona un texto para que pueda corregirlo y mejorarlo ortográficamente.
+        </h2>
+      </section>
+
+      <textarea class="resize-none h-96 w-80 mt-20 rounded-sm p-2 md:w-11/12" placeholder="escribe tu texto aqui..."></textarea>
+
+      <button type="submit" class="bg-white mt-10 py-2 px-32 hover:bg-green-800">Convertir</button>
+
+      <a href="https://github.com/Bynox4" target="_blank" class="absolute bottom-0 right-0">
+        <img src="./public/icons8-github-60.png" alt="Icon-Github" class="hover:bg-gray-700 rounded-lg">
+      </a>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
